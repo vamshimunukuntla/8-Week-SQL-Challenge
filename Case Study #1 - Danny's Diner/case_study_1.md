@@ -69,7 +69,7 @@ inner join sql_challenge.diner.members
 on sales.customer_id = members.customer_id;
 ```
 
-## Make it default!
+###  Make this catalog and database as default
 
 ```sql
 USE CATALOG sql_challenge;
@@ -78,6 +78,11 @@ USE SCHEMA diner;
 
 ### 1 . What is the total amount each customer spent at the restaurant?
 
+#### Visual Explanation:
+
+![Alt text](https://github.com/vamshimunukuntla/8-Week-SQL-Challenge/blob/main/Case%20Study%20%231%20-%20Danny's%20Diner/1.png "Danny's Diner ERD Diagram")
+
+#### SQL Code:
 ```sql
 select
   customer_id,
